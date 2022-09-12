@@ -50,14 +50,6 @@ export const Portfolio = () => {
         setTradeOpen={setTradeOpen}
       />
       <Dialog
-        open={buyOpen}
-        onClose={() => setBuyOpen(false)}
-        hideBackdrop
-        disablePortal
-      >
-        <BuyDialogue close={() => setBuyOpen(false)} />
-      </Dialog>
-      <Dialog
         open={sellOpen}
         onClose={() => setSellOpen(false)}
         hideBackdrop
